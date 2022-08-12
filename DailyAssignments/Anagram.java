@@ -15,7 +15,7 @@ public class Anagram {
         Arrays.sort(c2);
         for(int i=0; i< c1.length;i++)
         {
-            if (c1.length != c2.length)
+            if (c1[i]!= c2[i])
             {
                 System.out.println("Not Anagram");
                 System.exit(0);
